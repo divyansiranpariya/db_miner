@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-import '../models/quote_model.dart';
+import '../../models/quote_model.dart';
 
 class JsonHelper {
   JsonHelper._();

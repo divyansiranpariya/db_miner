@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../models/api_model.dart';
-import '../../utils/api_helper.dart';
+import '../../utils/helper/api_helper.dart';
 
 class QuotesPage extends StatefulWidget {
   const QuotesPage({super.key});

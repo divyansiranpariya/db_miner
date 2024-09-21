@@ -8,7 +8,7 @@ import 'package:flutter/rendering.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_extend/share_extend.dart';
-import '../../utils/db_helper.dart';
+import '../../utils/helper/db_helper.dart';
 
 class DetailPage extends StatefulWidget {
   const DetailPage({super.key});

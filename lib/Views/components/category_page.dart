@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:db_miner/models/quote_model.dart';
-import 'package:db_miner/utils/json_helper.dart';
+import 'package:db_miner/utils/helper/json_helper.dart';
 import 'package:flutter/rendering.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -120,7 +120,7 @@ class _categoryComponentsState extends State<categoryComponents> {
                       itemBuilder: (context, index) {
                         return GestureDetector(
                           onTap: () {
-                            Get.toNamed('/DetailPage',
+                            Get.toNamed('/Detail_page',
                                 arguments: filteredQuotes[index]);
                           },
                           child: Container(

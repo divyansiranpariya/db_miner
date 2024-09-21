@@ -9,12 +9,12 @@ import 'Views/Screens/homePages.dart';
 void main() {
   runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: 'Splacescreen',
+    initialRoute: 'Splace_screen',
     getPages: [
       GetPage(name: '/', page: () => HomePages()),
-      GetPage(name: '/Splacescreen', page: () => Splacescreen()),
-      GetPage(name: '/FavouritesPage', page: () => FavouritesPage()),
-      GetPage(name: '/DetailPage', page: () => DetailPage()),
+      GetPage(name: '/Splace_screen', page: () => Splacescreen()),
+      GetPage(name: '/Favourites_page', page: () => FavouritesPage()),
+      GetPage(name: '/Detail_page', page: () => DetailPage()),
     ],
   ));
 }

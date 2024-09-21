@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
-import '../../utils/db_helper.dart';
+import '../../utils/helper/db_helper.dart';
 
 class FavouritesPage extends StatefulWidget {
   const FavouritesPage({super.key});
@@ -74,7 +74,7 @@ class _FavouritesPageState extends State<FavouritesPage> {
                 QuoteModel quote = snapshot.data![index];
                 return GestureDetector(
                   onTap: () {
-                    Get.toNamed('/DetailPage', arguments: quote);
+                    Get.toNamed('/Detail_page', arguments: quote);
                   },
                   child: Container(
                     margin: EdgeInsets.only(right: 14, left: 14),
@@ -105,7 +105,7 @@ class _FavouritesPageState extends State<FavouritesPage> {
                             ],
                           ),
                           onTap: () {
-                            Navigator.pushNamed(context, '/DetailPage',
+                            Navigator.pushNamed(context, '/Detail_page',
                                 arguments: quote);
                           },
                         ),
