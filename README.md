@@ -30,6 +30,8 @@ This application includes multiple functionalities such as dynamic page manageme
 
 
 
+## Screenshots
+
 ![q1](https://github.com/user-attachments/assets/bf2d5e4d-b653-4368-8115-349f07f0890b)
 ![q2](https://github.com/user-attachments/assets/39629536-92d6-4dbc-91a6-85b0cc9f9d3b)
 ![q3](https://github.com/user-attachments/assets/0f43379a-216d-4d27-82db-03e1b1e35383)
